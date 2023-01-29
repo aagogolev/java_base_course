@@ -35,8 +35,20 @@ class StudentTest22 {
     public static void main(String[] args) {
 
         Student22 stud1 = new Student22(1, "Alex", "Below", 1984, 5.5, 6.3, 7.1);
+
         Student22 stud2 = new Student22(2,"Ivan", "Ivanov", 1999);
+        stud2.average_math = 3.3;
+        stud2.average_economy = 4.4;
+        stud2.average_language = 2.2;
+
         Student22 stud3 = new Student22();
+        stud3.student_ID = 3;
+        stud3.name = "Victor";
+        stud3.surname = "Victorov";
+        stud3.year_of_study = 2001;
+        stud3.average_economy = 8;
+        stud3.average_language = 5;
+        stud3.average_math = 2;
 
         StudentTest22 studTest = new StudentTest22();
 

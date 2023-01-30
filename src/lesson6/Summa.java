@@ -21,10 +21,10 @@ public class Summa {
     public static void main(String[] args) {
 
         Summa sm = new Summa();
-        sm.summa(1,1,1,1);
-        sm.summa(1,1,1);
-        sm.summa(1,1);
-        sm.summa(1);
+        sm.summa(3,5,7,11);
+        sm.summa(3,5,7);
+        sm.summa(3,5);
+        sm.summa(3);
         sm.summa();
     }
 }
